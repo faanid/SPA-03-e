@@ -5,20 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="dist/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
   <title>Web way</title>
 </head>
 <body>
-<!-- youtube : Web Way -->
+
  <div class="hero">
    <nav>
-     <img src="dist/images/menu.png" alt="" class="menu-img">
+     
      <img src="dist/images/logo.png" alt="" class="logo">
+     
      <ul>
        <li><a href="#">Latest</a> </li>
          <li><a href="#">Modern</a></li>
          <li><a href="#">Contemporary</a></li>
         <li><a href="#">Affordable</a></li>
      </ul>
+     <div id=""menuBtn>
+      <img src="dist/images/menu.png" alt="" class="menu-img" id="menu">
+     </div>
+   
      <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
    </nav>
     <div class="lamp-container">
@@ -41,13 +49,7 @@
  </div>
 
 
-<script>
-    let btn = document.getElementById("btn");
-    let light = document.getElementById("light");
-    function toggleBtn(){
-     btn.classList.toggle("active");
-     light.classList.toggle("on");
-    }
+<script src="/dist/js/main.js">
 </script>
 </body>
 </html>
