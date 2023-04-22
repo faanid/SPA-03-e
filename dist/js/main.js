@@ -29,4 +29,5 @@ const menu = document.getElementById("menu");
 
 menu.addEventListener("click", function () {
   navLi.classList.toggle("show-links");
+  // navLi.style.right = "-31px";
 });
