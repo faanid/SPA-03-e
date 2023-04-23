@@ -332,6 +332,12 @@ padding:70px 0;
     .feature{
         flex-basis:100%;
     }
+    .feature-img{
+        flex-basis:100%;
+    }
+    .feature-img img{
+        width:100%;
+    }
 }
 
 
