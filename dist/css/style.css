@@ -184,6 +184,7 @@ button span{
         display: block;
         top:47px;
         cursor: pointer;
+        padding-right:5px;
     }
     nav{
         
@@ -263,7 +264,7 @@ padding:70px 0;
     content:'';
     width:50px;
     height:30px;
-    background: linear-gradient(#019587, #fff);
+    background: linear-gradient(#019587, #dddddf);
     position:absolute;
     top:-20;
     left:0;
@@ -340,7 +341,33 @@ padding:70px 0;
     }
 }
 
+#feature{
+    background-color: #dddddf
+}
 
+/* services */
+
+#service{
+    width:100%;
+    padding:70px 0;
+    background: #efefef;
+}
+
+.service-box{
+    width:80%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin:auto;
+}
+
+.single-service{
+    flex-basis:48%;
+    text-align:center;
+    border-radius:7px;
+    margin-bottom:20px;
+    color:#fff;
+}
 
 
 
