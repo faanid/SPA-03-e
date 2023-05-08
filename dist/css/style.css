@@ -461,6 +461,7 @@ hr{
     border-radius:5px;
     box-shadow:0 10px 20px 3px #00968814;
     cursor: pointer;
+    transition: transform .5s;
 }
 
 .user{
@@ -479,6 +480,20 @@ hr{
     margin-left:10px;
     color:#27c0ff;
     font-size:20px;
+}
+
+.user-info small{
+    color:#009688;
+}
+
+.testimonial-col:hover{
+    transform:translateY(-7px);
+}
+
+@media screen and (max-width:770px){
+    .testimonial-col{
+        flex-basis: 100%;
+    }
 }
 
 
