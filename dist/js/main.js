@@ -31,3 +31,8 @@ menu.addEventListener("click", function () {
   navLi.classList.toggle("show-links");
   // navLi.style.right = "-31px";
 });
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 1000,
+  speedAsDuration: true,
+});
